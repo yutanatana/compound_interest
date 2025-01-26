@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/compound-interest-calculator/static/css/main.e6c13ad2.css",
-    "main.js": "/compound-interest-calculator/static/js/main.0dbe40b9.js",
-    "static/js/488.ecc8bb67.chunk.js": "/compound-interest-calculator/static/js/488.ecc8bb67.chunk.js",
-    "index.html": "/compound-interest-calculator/index.html",
-    "main.e6c13ad2.css.map": "/compound-interest-calculator/static/css/main.e6c13ad2.css.map",
-    "main.0dbe40b9.js.map": "/compound-interest-calculator/static/js/main.0dbe40b9.js.map",
-    "488.ecc8bb67.chunk.js.map": "/compound-interest-calculator/static/js/488.ecc8bb67.chunk.js.map"
+    "main.css": "/compound-interest/static/css/main.e6c13ad2.css",
+    "main.js": "/compound-interest/static/js/main.2a09a140.js",
+    "static/js/488.ecc8bb67.chunk.js": "/compound-interest/static/js/488.ecc8bb67.chunk.js",
+    "index.html": "/compound-interest/index.html",
+    "main.e6c13ad2.css.map": "/compound-interest/static/css/main.e6c13ad2.css.map",
+    "main.2a09a140.js.map": "/compound-interest/static/js/main.2a09a140.js.map",
+    "488.ecc8bb67.chunk.js.map": "/compound-interest/static/js/488.ecc8bb67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0dbe40b9.js"
+    "static/js/main.2a09a140.js"
   ]
 }
