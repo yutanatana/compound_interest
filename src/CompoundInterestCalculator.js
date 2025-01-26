@@ -70,7 +70,7 @@ const CompoundInterestCalculator = () => {
           onClick={calculateCompoundInterest}
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 w-full"
         >
-          計算
+          calculate
         </button>
         {result && (
           <div className="mt-4 p-4 bg-gray-100 rounded">
