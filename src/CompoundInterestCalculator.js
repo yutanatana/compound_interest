@@ -24,10 +24,10 @@ const CompoundInterestCalculator = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-green-100">
-      <h1 className="text-3xl font-bold mb-4">複利計算ツール</h1>
+      <h1 className="text-3xl font-bold mb-4">compound interest calculator</h1>
       <div className="bg-white p-6 rounded shadow-md w-full max-w-md">
         <div className="mb-4">
-          <label className="block mb-2 font-semibold">元本 (円)</label>
+          <label className="block mb-2 font-semibold">principal ($)</label>
           <input
             type="number"
             value={principal}
@@ -36,7 +36,7 @@ const CompoundInterestCalculator = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 font-semibold">年利率 (%)</label>
+          <label className="block mb-2 font-semibold">annual interest rate (%)</label>
           <input
             type="number"
             value={rate}
@@ -45,7 +45,7 @@ const CompoundInterestCalculator = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 font-semibold">投資期間 (年)</label>
+          <label className="block mb-2 font-semibold">investment period (year)</label>
           <input
             type="number"
             value={time}
@@ -54,16 +54,16 @@ const CompoundInterestCalculator = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2 font-semibold">複利計算の頻度</label>
+          <label className="block mb-2 font-semibold">Compound interest calculation frequency</label>
           <select
             value={compounds}
             onChange={(e) => setCompounds(e.target.value)}
             className="p-2 border rounded w-full"
           >
-            <option value="1">年1回</option>
-            <option value="4">四半期ごと</option>
-            <option value="12">毎月</option>
-            <option value="365">毎日</option>
+            <option value="1">year</option>
+            <option value="4">quarter</option>
+            <option value="12">month</option>
+            <option value="365">day</option>
           </select>
         </div>
         <button
@@ -74,7 +74,7 @@ const CompoundInterestCalculator = () => {
         </button>
         {result && (
           <div className="mt-4 p-4 bg-gray-100 rounded">
-            <h2 className="text-lg font-bold">最終金額: {result} 円</h2>
+            <h2 className="text-lg font-bold">amount: {result} $ </h2>
           </div>
         )}
       </div>
