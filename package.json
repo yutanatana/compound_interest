@@ -9,7 +9,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://yutanatana.github.io/compound-interest-calculator",
+  "homepage": "https://yutanatana.github.io/compound-interest",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
