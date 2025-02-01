@@ -1,5 +1,6 @@
 import React from "react";
 import CompoundInterestCalculator from "./CompoundInterestCalculator";
+import "./index.css";
 
 function App() {
   return (
