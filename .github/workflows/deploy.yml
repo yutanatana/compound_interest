@@ -31,5 +31,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: Build # Viteの場合は'dist'、Create React Appの場合は'build'
+          folder: dist # Viteの場合は'dist'、Create React Appの場合は'build'
           branch: gh-pages # デプロイ先のブランチ
